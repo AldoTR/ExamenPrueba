@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\examen-prueba",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
