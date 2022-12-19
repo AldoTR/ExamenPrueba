@@ -1,0 +1,99 @@
+header {
+    background: rgb(19,50,43);
+    background: linear-gradient(135deg, rgba(19,50,43,1) 25%, rgba(40,92,77,1) 75%);
+    color: white;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#resuelve {
+    font-size: 15px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: gray solid 1px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#intro {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    width: 250px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#datos {
+    float: left;
+    width: 570px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+#datos:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#resultado {
+    float: right;
+    width: 570px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+#resultado:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    height: 25px;
+    width: 400px;
+    border-color: gray solid 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #9D2449;
+    color: white;
+    border: 0;
+    transition: all 0.2s ease;
+}
+
+button:active {
+    background-color: #621132;
+    transform: scale(0.95)
+}
+
+footer {
+    margin-top: 440px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    background: rgb(19,50,43);
+    background: linear-gradient(135deg, rgba(19,50,43,1) 25%, rgba(40,92,77,1) 75%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
